@@ -7,8 +7,8 @@ from datetime import timedelta
 # Statement for enabling the development environment
 DEBUG = True
 #pip install pyyaml
-import yaml
-yaml.safe_load("Dockerfile")#, Loader=yaml.FullLoader)
+#import yaml
+#yaml.safe_load("Dockerfile")#, Loader=yaml.FullLoader)
 # Define the application directory
 import os
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))  
