@@ -16,24 +16,24 @@ import plotly.offline as py
 import plotly.graph_objs as go
 import plotly.express as px
 
-def basic_plot(x, y):
+def basic_plot(x=10, y=10):
 
     pic1 = go.Scatter(
-            x = [i for i in range(len(x))],
-            y = x,
+            x = [i for i in range(x)],
+            y = [i for i in range(x)],
             name = 'Index',
             marker = {'color':'green'}
         )
 
     pic2 = go.Scatter(
-            x = [i for i in range(len(y))],
-            y = y,
+            x = [i for i in range(y)],
+            y = [i for i in range(y)],
             name = 'Vol',
             marker = {'color':'red'}
         )
     data = [pic1,pic2]
     layout = go.Layout(
-            title= (f'Stock'),
+            title= (f''),
             titlefont=dict(
             family='Courier New, monospace',size=15,color='#7f7f7f'
             ),
@@ -44,7 +44,7 @@ def basic_plot(x, y):
                 title='%'
             ),
             xaxis=dict(
-                title='stack (BB)'
+                title=''
             )
 
             )

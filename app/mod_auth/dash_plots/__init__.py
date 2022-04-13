@@ -13,10 +13,43 @@ from dash import html
 import plotly.express as px
 import pandas as pd
 import flask_login
-from library import SQL_query
+#from library import SQL_query
 
 
 from app.mod_auth.dash_plots import plot_figures 
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+fig2 = plot_figures.basic_plot()
+
+def create_dash(flask_app):
+    dash_app = dash.Dash(server=flask_app, name="Dashboard", url_base_pathname='/plots/')
+
+    #dash_app.index_string = html_layout
+    dash_app.layout = html.Div(style=external_stylesheets, children=[
+    html.Div(dcc.Input(id='input-on-submit', type='text')),
+    html.Button('Submit', id='submit-val', n_clicks=0),
+    html.Div(id='container-button-basic',
+             children='Enter a value and press submit')
+    ,
+    dcc.RangeSlider(
+        id='my-range-slider',
+        min=0,
+        max=25,
+        step=1,
+        value=[10, 25],
+        marks = {'style':{'width': '1vh', 'height': '1vh'}}
+    ),
+    html.Div(id='container-button-timestamp'),
+    dcc.Graph(
+        id='example-graph-1',
+        figure=fig2
+    ),
+    dcc.Graph(
+        id='example-graph-3',
+        figure=fig2
+    )
+]   )
+    return dash_app
+"""
 df = SQL_query.df_from_db()
 
 #fig2 = plot_figures.basic_plot(df['TSLA_Y'] ,df['TSLA_Vol'])bull marketT% recessionT%
@@ -54,7 +87,7 @@ def create_dash(flask_app):
     )
 ]   )
     return dash_app
-
+"""
 #https://dash.plotly.com/dash-html-components/button
 #https://community.plotly.com/c/dash/16
 #https://dash.plotly.com
@@ -69,32 +102,32 @@ def create_dash(flask_app):
 
 
 
-    """
-    @dash_app.callback(
-        dash.dependencies.Output('container-button-timestamp', 'children'),
-        [dash.dependencies.Input('submit-val', 'n_clicks')],
-        [dash.dependencies.Input('my-range-slider', 'value')],#(id, variable_que_agafes)
-        [dash.dependencies.State('input-on-submit', 'value')])
-    def update_output(_, stack, value = 'ALL'):#entenc que les agafa ordenades de adalt
-        if value == 'ALL':
-            comb_count = helper.get_range(data)#,'buffandas')#'ClickClickClick')
-        else:
-            comb_count = helper.get_range(data,value)
-            #comb_count = helper.get_range(data, value)
-        fig = plot_figures.allin_call_range(comb_count, stack = stack)
-        #canviar funció per fer stack segons la barra min/max, i no els rangs ja assignats
-        return dcc.Graph(
-        id='example-graph-extra',
-        figure=fig
-        )
-    """
-    
+"""
+@dash_app.callback(
+    dash.dependencies.Output('container-button-timestamp', 'children'),
+    [dash.dependencies.Input('submit-val', 'n_clicks')],
+    [dash.dependencies.Input('my-range-slider', 'value')],#(id, variable_que_agafes)
+    [dash.dependencies.State('input-on-submit', 'value')])
+def update_output(_, stack, value = 'ALL'):#entenc que les agafa ordenades de adalt
+    if value == 'ALL':
+        comb_count = helper.get_range(data)#,'buffandas')#'ClickClickClick')
+    else:
+        comb_count = helper.get_range(data,value)
+        #comb_count = helper.get_range(data, value)
+    fig = plot_figures.allin_call_range(comb_count, stack = stack)
+    #canviar funció per fer stack segons la barra min/max, i no els rangs ja assignats
+    return dcc.Graph(
+    id='example-graph-extra',
+    figure=fig
+    )
+"""
 
-    """
-    for view_function in dash_app.server.view_functions:
-        if view_function.startswith(dash_app.config.url_base_pathname):
-            dash_app.server.view_functions[view_function] = flask_login.login_required(dash_app.server.view_functions[view_function])
-    """
+
+"""
+for view_function in dash_app.server.view_functions:
+    if view_function.startswith(dash_app.config.url_base_pathname):
+        dash_app.server.view_functions[view_function] = flask_login.login_required(dash_app.server.view_functions[view_function])
+"""
 
    
 """

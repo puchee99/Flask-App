@@ -51,5 +51,5 @@ db.create_all()
 
 #from library.scraper import data_scrapper
 #data_scrapper()
-#from app.mod_auth.dash_plots import create_dash
-#create_dash(app)
+from app.mod_auth.dash_plots import create_dash
+create_dash(app)
