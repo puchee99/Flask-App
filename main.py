@@ -16,7 +16,7 @@ if __name__ == "__main__":
     # last minute here.
 
     #from views.basic import *
-    from app import app #
+    from app import app ##
 
     app.run(host='0.0.0.0', port=105,use_reloader=True,debug=True)#http://localhost:105/hello/
 
