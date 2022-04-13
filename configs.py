@@ -16,12 +16,13 @@ BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(BASE_DIR, 'app.sqlite') #'sqlite:///tables/users.sqlite3'
 print(SQLALCHEMY_DATABASE_URI)
 DATABASE_CONNECT_OPTIONS = {}
-
+"""
 MONGODB_SETTINGS = {
     'db': 'your_database',
     'host': 'localhost',
     'port': 27017
 }
+"""
 
 # Application threads. A common general assumption is
 # using 2 per available processor cores - to handle
