@@ -73,7 +73,6 @@ def delete_record():
 ###########@mod_auth.route('/login', methods=['GET', 'POST'])
 
 @mod_auth.route('/', methods=['GET', 'POST'])
-
 def login():
     form = LoginForm(request.form)
     if request.method == "POST":
