@@ -1,21 +1,15 @@
 from datetime import timedelta
-#https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications
-#https://flask-pymongo.readthedocs.io/en/latest/
-#https://testdriven.io/blog/django-vs-flask/
-#https://insaid.medium.com/setting-up-apache-airflow-in-macos-2b5e86eeaf1
 
 # Statement for enabling the development environment
 DEBUG = True
-#pip install pyyaml
-#import yaml
-#yaml.safe_load("Dockerfile")#, Loader=yaml.FullLoader)
+
 # Define the application directory
 import os
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))  
 
 # Define the database - we are working with
 # SQLite for this example
-SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(BASE_DIR, 'app.sqlite') #'sqlite:///tables/users.sqlite3'
+SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(BASE_DIR, 'app.sqlite')
 print(SQLALCHEMY_DATABASE_URI)
 DATABASE_CONNECT_OPTIONS = {}
 """
