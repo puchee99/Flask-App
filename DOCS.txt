@@ -1,5 +1,0 @@
-git add .
-git commit -m "g"
-git push origin main
-
-pip install https://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@raw.githubusercontent.com/puchee99/dblibrary/master/dist/mypythonlib-0.1.0-py3-none-any.whl
