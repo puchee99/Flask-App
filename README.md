@@ -94,17 +94,17 @@ Given a csv with a target column, it processes the data and trains a predictor u
 
 First, clone the repository:
    ```sh
-      git clone https://github.com/puchee99/Flask-App.git
+   git clone https://github.com/puchee99/Flask-App.git
    ```
 Access to the project folder with:
   ```sh
-      cd Flask-App
+  cd Flask-App
   ```
 
 We will create a virtual environment with `python3
 * Create environment with python 3 / Activate repo
     ```sh
-      python3 -m venv venv
+    python3 -m venv venv
     ```
     
 * Enable the virtual environment
@@ -113,8 +113,8 @@ We will create a virtual environment with `python3
     ```
 
 * Install the python dependencies on the virtual environment
-   ```sh
-      pip install -r requirements.txt
+    ```sh
+    pip install -r requirements.txt
     ```
 
 
