@@ -80,6 +80,7 @@ Flask app using SQL, MongoDB and Dash/Plotly
 * [Pymongo](https://pymongo.readthedocs.io/en/stable/)
 * [Flask](https://flask.palletsprojects.com/)
 * [Plotly](https://plotly.com/dash/)
+* [SQLalchemy](https://www.sqlalchemy.org)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
