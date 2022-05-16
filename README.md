@@ -67,7 +67,7 @@
 
 [![product-screenshot]]
 
-Classify data using neural networks.
+Flask app using SQL, MongoDB and Dash/Plotly
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -77,12 +77,9 @@ Classify data using neural networks.
 
 This section should list any major frameworks/libraries used in this project. 
 
-* [Pytorch](https://pytorch.org/)
-* [scikit-learn](https://scikit-learn.org/)
-* [Numpy](https://numpy.org/)
-* [Pandas](https://pandas.pydata.org/)
-* [Logging](https://docs.python.org/3/library/logging.html)
-* [Seaborn](https://seaborn.pydata.org/)
+* [Pymongo](https://pymongo.readthedocs.io/en/stable/)
+* [Flask](https://flask.palletsprojects.com/)
+* [Plotly](https://plotly.com/dash/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
