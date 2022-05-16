@@ -132,17 +132,14 @@ Run `python train.py`
 
 Arnau Puche  - [@arnau_puche_vila](https://www.linkedin.com/in/arnau-puche-vila-ds/) - arnaupuchevila@gmail.com
 
-Project Link: [https://github.com/puchee99/[Var name]](https://github.com/puchee99/PytorchClassifier)
+Project Link: [https://github.com/puchee99/Flask-App](https://github.com/puchee99/PytorchClassifier)
 
-[Pr link]
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[Var name]: Flask-App
-[Pr link]: https://github.com/puchee99/[Var name]
 [contributors-shield]: https://img.shields.io/github/contributors/puchee99/Flask-App.svg?style=for-the-badge
 [contributors-url]: https://github.com/puchee99/Flask-App/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/puchee99/Flask-App.svg?style=for-the-badge
