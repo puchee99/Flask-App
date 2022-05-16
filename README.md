@@ -97,9 +97,9 @@ First, clone the repository:
       git clone https://github.com/puchee99/Flask-App.git
    ```
 Access to the project folder with:
-```sh
+  ```sh
       cd Flask-App
-   ```
+  ```
 
 We will create a virtual environment with `python3
 * Create environment with python 3 / Activate repo
