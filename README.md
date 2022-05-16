@@ -101,8 +101,8 @@ Access to the project folder with:
   cd Flask-App
   ```
 
-We will create a virtual environment with `python3
-* Create environment with python 3 / Activate repo
+We will create a virtual environment with `python3`
+* Create environment with python 3 
     ```sh
     python3 -m venv venv
     ```
