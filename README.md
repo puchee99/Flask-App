@@ -75,8 +75,6 @@ Flask app using SQL, MongoDB and Dash/Plotly
 
 ### Built With
 
-This section should list any major frameworks/libraries used in this project. 
-
 * [Pymongo](https://pymongo.readthedocs.io/en/stable/)
 * [Flask](https://flask.palletsprojects.com/)
 * [Plotly](https://plotly.com/dash/)
