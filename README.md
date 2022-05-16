@@ -141,6 +141,7 @@ Run `python app.py`
     - [x] Basic plots
     - [x] Interactive
     - [ ] Advanced plots
+- [x] API
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
