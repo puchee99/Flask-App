@@ -132,7 +132,7 @@ Run `python train.py`
 
 Arnau Puche  - [@arnau_puche_vila](https://www.linkedin.com/in/arnau-puche-vila-ds/) - arnaupuchevila@gmail.com
 
-Project Link: [https://github.com/puchee99/Flask-App](https://github.com/puchee99/PytorchClassifier)
+Project Link: [https://github.com/puchee99/Flask-App](https://github.com/puchee99/Flask-App)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
