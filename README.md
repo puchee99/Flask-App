@@ -129,11 +129,18 @@ Run `python app.py`
 
 ## Roadmap
 
-- [x] Train model
-- [x] Loggers
-- [ ] BI
-    - [ ] Flask
-    - [ ] Plotly
+- [x] Create Flask App
+- [ ] Loggers
+- [ ] SQL
+    - [x] Local
+    - [x] GCP
+    - [ ] AWS
+    - [ ] Azure
+- [x] Connect MongoDB
+- [ ] Dashboard
+    - [x] Basic plots
+    - [x] Interactive
+    - [ ] Advanced plots
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
