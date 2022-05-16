@@ -69,7 +69,11 @@
 
 [Image][product-screenshot]
 
-Flask app using SQL, MongoDB and Dash/Plotly
+The goal of this project is to create a complete application using Flask. It should be good enough to be cut up and used for different projects.
+* Create a secure login system
+* Use databases of different types.
+* Connect to cloud databases
+* Create an interactive board
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -87,9 +91,6 @@ Flask app using SQL, MongoDB and Dash/Plotly
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-Given a csv with a target column, it processes the data and trains a predictor using neural networks.
-
 
 ### Installation
 
@@ -123,7 +124,7 @@ We will create a virtual environment with `python3`
 
 ## Usage
 
-Run `python train.py`
+Run `python app.py`
 
 
 ## Roadmap
