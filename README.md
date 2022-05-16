@@ -131,8 +131,8 @@ Run `python train.py`
 ## Contact
 
 Arnau Puche  - [@arnau_puche_vila](https://www.linkedin.com/in/arnau-puche-vila-ds/) - arnaupuchevila@gmail.com
-
-Project Link: [https://github.com/puchee99/PytorchClassifier](https://github.com/puchee99/PytorchClassifier)
+[Var namee]: Flask-App
+Project Link: [https://github.com/puchee99/[Var name]](https://github.com/puchee99/PytorchClassifier)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
