@@ -65,10 +65,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![product-screenshot]
-
-[Image][product-screenshot]
-
 The goal of this project is to create a complete application using Flask. It should be good enough to be cut up and used for different projects.
 * Create a secure login system
 * Use databases of different types.
