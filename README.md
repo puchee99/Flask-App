@@ -28,11 +28,11 @@
     <a href="https://github.com/puchee99/PytorchClassifier"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/puchee99/PytorchClassifier">View Demo</a>
+    <a href="https://github.com/puchee99/Flask-App">View Demo</a>
     ·
-    <a href="https://github.com/puchee99/PytorchClassifier/issues">Report Bug</a>
+    <a href="https://github.com/puchee99/Flask-App/issues">Report Bug</a>
     ·
-    <a href="https://github.com/puchee99/PytorchClassifier/issues">Request Feature</a>
+    <a href="https://github.com/puchee99/Flask-App/issues">Request Feature</a>
   </p>
 </div>
 
@@ -101,7 +101,7 @@ This is an example of how to list things you need to use the software and how to
     ```
 2. Clone the repo
    ```sh
-      git clone https://github.com/puchee99/PytorchClassifier.git
+      git clone https://github.com/puchee99/Flask-App.git
    ```
 3. Install pip packages
    ```sh
