@@ -65,7 +65,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![product-screenshot]]
+![product-screenshot]
+
+[Image][product-screenshot]
 
 Flask app using SQL, MongoDB and Dash/Plotly
 
